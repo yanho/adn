@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Cliente"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "apellidos": {
+      "type": "string"
+    },
+    "calle": {
+      "type": "string"
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "delegacion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "proyecto": {
+      "type": "string"
+    },
+    "medio": {
+      "type": "string"
+    },
+    "asesor": {
+      "type": "integer"
+    },
+    "que_solicito": {
+      "type": "string"
+    },
+    "calificacion": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
